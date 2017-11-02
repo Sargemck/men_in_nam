@@ -1,0 +1,21 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 27, in script
+    e "You've created a new Ren'Py game."
+Exception: Sayer 'e' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 27, in script
+    e "You've created a new Ren'Py game."
+  File "/home/baris/code/games/itchio_gamejam/renpy-6.99.13-sdk/renpy/ast.py", line 596, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "/home/baris/code/games/itchio_gamejam/renpy-6.99.13-sdk/renpy/ast.py", line 509, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who.encode("utf-8"))
+Exception: Sayer 'e' is not defined.
+
+Linux-4.10.0-37-generic-x86_64-with-debian-stretch-sid
+Ren'Py 6.99.13.2919
+Men in 'Nam 1.0
